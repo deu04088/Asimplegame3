@@ -137,35 +137,38 @@
                     android:textSize="25.0sp" />
             </LinearLayout>
 
-            <ImageButton
-                android:id="@+id/imageButton3"
-                android:layout_width="70dp"
-                android:layout_height="69dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginRight="80dp"
-                ads:srcCompat="@android:drawable/ic_lock_idle_alarm" />
-
-            <ImageButton
-                android:id="@+id/imageButton4"
+            <Button
+                android:id="@+id/buttonpass"
                 android:layout_width="70dp"
                 android:layout_height="69dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="80dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="80dp"
+                android:background="#fff"
+                android:text="pass" />
+
+            <Button
+                android:id="@+id/buttonstop"
+                android:layout_width="70dp"
+                android:layout_height="69dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
                 android:layout_marginTop="-70dp"
                 android:layout_marginRight="80dp"
-                ads:srcCompat="@android:drawable/btn_star_big_on" />
+                android:background="#fff"
+                android:text="Stop" />
 
-            <ImageButton
-                android:id="@+id/imageButton5"
+            <Button
+                android:id="@+id/buttonhint"
                 android:layout_width="70dp"
                 android:layout_height="69dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="80dp"
                 android:layout_marginTop="-70dp"
                 android:layout_marginRight="0dp"
-                ads:srcCompat="@android:drawable/ic_dialog_info" />
+                android:background="#fff"
+                android:text="hint" />
 
         </LinearLayout>
     </LinearLayout>
